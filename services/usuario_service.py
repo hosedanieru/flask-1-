@@ -1,5 +1,5 @@
 from database import Usuarios
-from usuarios import Usuario
+from models.usuarios import Usuario
 
 def crear_ususario(nombre,email,password,rol):
     Usuario= Usuarios(nombre,email,password,rol)
